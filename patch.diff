@@ -1,0 +1,36 @@
+From ad6ad0b388016029ce4db52753cee4d0e13f82a7 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?=E9=99=88=E6=97=AD?= <897939354@qq.com>
+Date: Fri, 21 Oct 2016 14:00:49 +0800
+Subject: [PATCH] 3333
+
+---
+ .../UserInterfaceState.xcuserstate                  | Bin 11669 -> 11669 bytes
+ GitManage/ViewController.swift                      |   1 +
+ 2 files changed, 1 insertion(+)
+
+diff --git a/GitManage.xcodeproj/project.xcworkspace/xcuserdata/chenxu.xcuserdatad/UserInterfaceState.xcuserstate b/GitManage.xcodeproj/project.xcworkspace/xcuserdata/chenxu.xcuserdatad/UserInterfaceState.xcuserstate
+index 93def4a61da5b88d2e9c973fbd7b8be51425fbbc..ddf822d92d4c57ed853c1aba697743978300aa08 100644
+GIT binary patch
+delta 56
+zcmbOlJvDm6NnYXBDw8)6)do5WW(Fp;91+zf#ul6J@J{9yYOS3A6)pi0Z<G`f0RUGk
+B6QlqD
+
+delta 56
+zcmbOlJvDm6NnT;q%^z<>R2%3hn3`GEazs>{7#MH9!#kN<NOkkvIJg8vyirm_1OQ(~
+B6Kenf
+
+diff --git a/GitManage/ViewController.swift b/GitManage/ViewController.swift
+index 2a38bb4..21201f1 100644
+--- a/GitManage/ViewController.swift
++++ b/GitManage/ViewController.swift
+@@ -16,6 +16,7 @@ class ViewController: UIViewController {
+         print("111222")
+          print("111222")
+          print("1112223333")
++          print("111222333344444")
+     }
+ 
+     override func didReceiveMemoryWarning() {
+-- 
+2.8.1
+
