@@ -23,7 +23,8 @@ class ViewController: UIViewController {
         print("print，print-TEST")
         print("补丁-TEST")
          print("补丁hou-master")
-
+        print("补丁hou-master")
+         print("补丁hou-master")
     }
 
     override func didReceiveMemoryWarning() {
