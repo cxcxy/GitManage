@@ -17,6 +17,12 @@ class ViewController: UIViewController {
          print("111222")
          print("1112223333")
           print("111222333344444")
+        print("11122233334444455555")
+        print("print，print")
+        print("print，print-TEST")
+        print("补丁-TEST")
+         print("补丁hou-master")
+
     }
 
     override func didReceiveMemoryWarning() {
