@@ -1,0 +1,31 @@
+From 936d4f4181bbac7c47816ebc25e2069a075b2f81 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?=E9=99=88=E6=97=AD?= <897939354@qq.com>
+Date: Fri, 21 Oct 2016 14:16:32 +0800
+Subject: [PATCH] test
+
+---
+ GitManage/ViewController.swift | 8 +++++---
+ 1 file changed, 5 insertions(+), 3 deletions(-)
+
+diff --git a/GitManage/ViewController.swift b/GitManage/ViewController.swift
+index 21201f1..4b66f92 100644
+--- a/GitManage/ViewController.swift
++++ b/GitManage/ViewController.swift
+@@ -14,9 +14,11 @@ class ViewController: UIViewController {
+         super.viewDidLoad()
+         // Do any additional setup after loading the view, typically from a nib.
+         print("111222")
+-         print("111222")
+-         print("1112223333")
+-          print("111222333344444")
++        print("111222")
++        print("1112223333")
++        print("111222333344444")
++ 
++        print("11122233334444455555")
+     }
+ 
+     override func didReceiveMemoryWarning() {
+-- 
+2.8.1
+
