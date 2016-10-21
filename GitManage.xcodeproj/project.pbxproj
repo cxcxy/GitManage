@@ -13,6 +13,8 @@
 		2DBDCA571DB9E24D00D7C052 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DBDCA561DB9E24D00D7C052 /* Assets.xcassets */; };
 		2DBDCA5A1DB9E24D00D7C052 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DBDCA581DB9E24D00D7C052 /* LaunchScreen.storyboard */; };
 		2DBDCA651DB9E24D00D7C052 /* GitManageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBDCA641DB9E24D00D7C052 /* GitManageUITests.swift */; };
+		2DBDCA711DB9EC7B00D7C052 /* TEstCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBDCA6F1DB9EC7B00D7C052 /* TEstCollectionViewCell.swift */; };
+		2DBDCA721DB9EC7B00D7C052 /* TEstCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DBDCA701DB9EC7B00D7C052 /* TEstCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		2DBDCA601DB9E24D00D7C052 /* GitManageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitManageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DBDCA641DB9E24D00D7C052 /* GitManageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitManageUITests.swift; sourceTree = "<group>"; };
 		2DBDCA661DB9E24D00D7C052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DBDCA6F1DB9EC7B00D7C052 /* TEstCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TEstCollectionViewCell.swift; sourceTree = "<group>"; };
+		2DBDCA701DB9EC7B00D7C052 /* TEstCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TEstCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				2DBDCA4F1DB9E24D00D7C052 /* AppDelegate.swift */,
 				2DBDCA511DB9E24D00D7C052 /* ViewController.swift */,
+				2DBDCA6F1DB9EC7B00D7C052 /* TEstCollectionViewCell.swift */,
+				2DBDCA701DB9EC7B00D7C052 /* TEstCollectionViewCell.xib */,
 				2DBDCA531DB9E24D00D7C052 /* Main.storyboard */,
 				2DBDCA561DB9E24D00D7C052 /* Assets.xcassets */,
 				2DBDCA581DB9E24D00D7C052 /* LaunchScreen.storyboard */,
@@ -181,6 +187,7 @@
 			files = (
 				2DBDCA5A1DB9E24D00D7C052 /* LaunchScreen.storyboard in Resources */,
 				2DBDCA571DB9E24D00D7C052 /* Assets.xcassets in Resources */,
+				2DBDCA721DB9EC7B00D7C052 /* TEstCollectionViewCell.xib in Resources */,
 				2DBDCA551DB9E24D00D7C052 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -201,6 +208,7 @@
 			files = (
 				2DBDCA521DB9E24D00D7C052 /* ViewController.swift in Sources */,
 				2DBDCA501DB9E24D00D7C052 /* AppDelegate.swift in Sources */,
+				2DBDCA711DB9EC7B00D7C052 /* TEstCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +410,7 @@
 				2DBDCA6B1DB9E24D00D7C052 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DBDCA6C1DB9E24D00D7C052 /* Build configuration list for PBXNativeTarget "GitManageUITests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +419,7 @@
 				2DBDCA6E1DB9E24D00D7C052 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
