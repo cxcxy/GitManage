@@ -1,0 +1,124 @@
+diff --git a/GitManage.xcodeproj/project.pbxproj b/GitManage.xcodeproj/project.pbxproj
+index 0e140a9..d725fda 100644
+--- a/GitManage.xcodeproj/project.pbxproj
++++ b/GitManage.xcodeproj/project.pbxproj
+@@ -13,6 +13,8 @@
+ 		2DBDCA571DB9E24D00D7C052 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DBDCA561DB9E24D00D7C052 /* Assets.xcassets */; };
+ 		2DBDCA5A1DB9E24D00D7C052 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DBDCA581DB9E24D00D7C052 /* LaunchScreen.storyboard */; };
+ 		2DBDCA651DB9E24D00D7C052 /* GitManageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBDCA641DB9E24D00D7C052 /* GitManageUITests.swift */; };
++		2DBDCA711DB9EC7B00D7C052 /* TEstCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBDCA6F1DB9EC7B00D7C052 /* TEstCollectionViewCell.swift */; };
++		2DBDCA721DB9EC7B00D7C052 /* TEstCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DBDCA701DB9EC7B00D7C052 /* TEstCollectionViewCell.xib */; };
+ /* End PBXBuildFile section */
+ 
+ /* Begin PBXContainerItemProxy section */
+@@ -36,6 +38,8 @@
+ 		2DBDCA601DB9E24D00D7C052 /* GitManageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitManageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+ 		2DBDCA641DB9E24D00D7C052 /* GitManageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitManageUITests.swift; sourceTree = "<group>"; };
+ 		2DBDCA661DB9E24D00D7C052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
++		2DBDCA6F1DB9EC7B00D7C052 /* TEstCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TEstCollectionViewCell.swift; sourceTree = "<group>"; };
++		2DBDCA701DB9EC7B00D7C052 /* TEstCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TEstCollectionViewCell.xib; sourceTree = "<group>"; };
+ /* End PBXFileReference section */
+ 
+ /* Begin PBXFrameworksBuildPhase section */
+@@ -79,6 +83,8 @@
+ 			children = (
+ 				2DBDCA4F1DB9E24D00D7C052 /* AppDelegate.swift */,
+ 				2DBDCA511DB9E24D00D7C052 /* ViewController.swift */,
++				2DBDCA6F1DB9EC7B00D7C052 /* TEstCollectionViewCell.swift */,
++				2DBDCA701DB9EC7B00D7C052 /* TEstCollectionViewCell.xib */,
+ 				2DBDCA531DB9E24D00D7C052 /* Main.storyboard */,
+ 				2DBDCA561DB9E24D00D7C052 /* Assets.xcassets */,
+ 				2DBDCA581DB9E24D00D7C052 /* LaunchScreen.storyboard */,
+@@ -181,6 +187,7 @@
+ 			files = (
+ 				2DBDCA5A1DB9E24D00D7C052 /* LaunchScreen.storyboard in Resources */,
+ 				2DBDCA571DB9E24D00D7C052 /* Assets.xcassets in Resources */,
++				2DBDCA721DB9EC7B00D7C052 /* TEstCollectionViewCell.xib in Resources */,
+ 				2DBDCA551DB9E24D00D7C052 /* Main.storyboard in Resources */,
+ 			);
+ 			runOnlyForDeploymentPostprocessing = 0;
+@@ -201,6 +208,7 @@
+ 			files = (
+ 				2DBDCA521DB9E24D00D7C052 /* ViewController.swift in Sources */,
+ 				2DBDCA501DB9E24D00D7C052 /* AppDelegate.swift in Sources */,
++				2DBDCA711DB9EC7B00D7C052 /* TEstCollectionViewCell.swift in Sources */,
+ 			);
+ 			runOnlyForDeploymentPostprocessing = 0;
+ 		};
+@@ -402,6 +410,7 @@
+ 				2DBDCA6B1DB9E24D00D7C052 /* Release */,
+ 			);
+ 			defaultConfigurationIsVisible = 0;
++			defaultConfigurationName = Release;
+ 		};
+ 		2DBDCA6C1DB9E24D00D7C052 /* Build configuration list for PBXNativeTarget "GitManageUITests" */ = {
+ 			isa = XCConfigurationList;
+@@ -410,6 +419,7 @@
+ 				2DBDCA6E1DB9E24D00D7C052 /* Release */,
+ 			);
+ 			defaultConfigurationIsVisible = 0;
++			defaultConfigurationName = Release;
+ 		};
+ /* End XCConfigurationList section */
+ 	};
+diff --git a/GitManage/TEstCollectionViewCell.swift b/GitManage/TEstCollectionViewCell.swift
+new file mode 100644
+index 0000000..9bec2fb
+--- /dev/null
++++ b/GitManage/TEstCollectionViewCell.swift
+@@ -0,0 +1,18 @@
++//
++//  TEstCollectionViewCell.swift
++//  GitManage
++//
++//  Created by 陈旭 on 2016/10/21.
++//  Copyright © 2016年 陈旭. All rights reserved.
++//
++
++import UIKit
++
++class TEstCollectionViewCell: UICollectionViewCell {
++
++    override func awakeFromNib() {
++        super.awakeFromNib()
++        // Initialization code
++    }
++
++}
+diff --git a/GitManage/TEstCollectionViewCell.xib b/GitManage/TEstCollectionViewCell.xib
+new file mode 100644
+index 0000000..a3415a9
+--- /dev/null
++++ b/GitManage/TEstCollectionViewCell.xib
+@@ -0,0 +1,19 @@
++<?xml version="1.0" encoding="UTF-8" standalone="no"?>
++<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
++    <dependencies>
++        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
++        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
++    </dependencies>
++    <objects>
++        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
++        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
++        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TEstCollectionViewCell" customModuleProvider="target">
++            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
++            <autoresizingMask key="autoresizingMask"/>
++            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
++                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
++                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
++            </view>
++        </collectionViewCell>
++    </objects>
++</document>
+diff --git a/GitManage/ViewController.swift b/GitManage/ViewController.swift
+index c36a468..528174c 100644
+--- a/GitManage/ViewController.swift
++++ b/GitManage/ViewController.swift
+@@ -20,6 +20,7 @@ class ViewController: UIViewController {
+  
+         print("11122233334444455555")
+         print("print，print")
++        print("print，print-TEST")
+     }
+ 
+     override func didReceiveMemoryWarning() {
