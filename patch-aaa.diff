@@ -1,0 +1,24 @@
+From c152d255e5511a2f53b8dfc1e72bd9cc6d7fae37 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?=E9=99=88=E6=97=AD?= <897939354@qq.com>
+Date: Fri, 21 Oct 2016 14:23:07 +0800
+Subject: [PATCH] aaaa
+
+---
+ GitManage/ViewController.swift | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/GitManage/ViewController.swift b/GitManage/ViewController.swift
+index 4b66f92..c36a468 100644
+--- a/GitManage/ViewController.swift
++++ b/GitManage/ViewController.swift
+@@ -19,6 +19,7 @@ class ViewController: UIViewController {
+         print("111222333344444")
+  
+         print("11122233334444455555")
++        print("print，print")
+     }
+ 
+     override func didReceiveMemoryWarning() {
+-- 
+2.8.1
+
