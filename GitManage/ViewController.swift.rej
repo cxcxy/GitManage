@@ -1,0 +1,9 @@
+diff a/GitManage/ViewController.swift b/GitManage/ViewController.swift	(rejected hunks)
+@@ -16,6 +16,7 @@ class ViewController: UIViewController {
+         print("111222")
+          print("111222")
+          print("1112223333")
++          print("111222333344444")
+     }
+ 
+     override func didReceiveMemoryWarning() {
